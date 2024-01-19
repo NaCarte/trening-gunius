@@ -1,0 +1,101 @@
+:root {
+    --color-brand-primary-green: rgba(129, 155, 87, 1);
+    --color-brand-primary-white: rgba(250, 244, 234, 1);
+    --color-brand-primmary-brow: rgba(49, 38, 26, 1);
+    --color-brand-primmary-darkgreen: rgba(70, 89, 41, 1);
+}
+body {
+    color: var(-color-brand-primmary-brow);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+address {
+    font-style: normal;
+}
+ul {
+    list-style-type: none;
+}
+.button {
+    color: var(--color-brand-primary-white);
+    font-weight: 600;
+    background-color: var(--color-brand-primary-green);
+    border: 2px solid var(--color-brand-primary-green);
+    border-radius: 8px var(--color-brand-primary-green);
+    cursor: pointer;
+} 
+.button:hover {
+   color: var(--color-brand-primmary-darkgreen);
+   background-color: transparent;
+}
+.link {
+    color: var(--color-brand-primary-white);
+    line-height: 27px; 
+    text-decoration: none;
+   
+} 
+.link:hover {
+    color: var(--color-brand-primary-green); 
+    font-weight: 600;
+}
+.main { 
+   color: var(--color-brand-primary-white);
+   text-align: center;
+   font-size: 128px;
+   font-weight: 900;
+}
+.main .accent{
+    color: var(--color-brand-primary-green);
+}
+.bodytext {
+    background-color: var(--color-brand-primary-green);
+    color: var(--color-brand-primary-white);
+}
+.bodytext-item {
+    font-size: 20px;
+    font-weight: 300;
+}
+.titleall {
+    color: var(--color-brand-primmary-brow);
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+.titlealll {
+    color: var(--color-brand-primmary-darkgreen);
+}
+.traditions-section .brand {
+    color: var(--color-brand-primary-green);
+    font-weight: 600;
+}
+.traditions-section .uppercase {
+    color: var(--color-brand-primary-green);
+    text-transform: uppercase;
+}
+.chef-item {
+    font-size: 40px;
+    font-weight: 600;   
+}
+.titleall-item {
+    font-size: 24px;
+    font-weight: 600;
+}
+.fornat-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+/* foter */
+.address-link {
+    color: var(--color-brand-primary-white);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.address-link:hover {
+    color: var(--color-brand-primary-green);
+}
+.address-cope {
+    font-size: 14px;
+    font-weight: 400;
+}
